@@ -1,0 +1,29 @@
+package part01.sec01.exam01;
+
+import java.util.Scanner;
+
+public class problem07_02 {
+
+	public static void main(String[] args) {
+		 Scanner s=new Scanner(System.in);
+		 String str;
+		 char ch;
+		 int upper_cnt,lowe_cnt,digit_cnt;
+		 int i;
+		 
+		 
+		 do {
+		 System.out.print("문자열을 입력 : ");
+		 str=s.nextLine();
+		 while(i<)
+		 ch = str.charAt(i)
+		 
+		 
+		 
+		 
+		 }
+		 System.out.printf("대문자 %d개, 소문자%d개, 숫자%d개",upper_cnt,lowe_cnt,digit_cnt);
+
+	}
+
+}

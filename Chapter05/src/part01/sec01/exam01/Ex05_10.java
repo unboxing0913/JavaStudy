@@ -1,0 +1,58 @@
+package part01.sec01.exam01;
+
+import java.util.Scanner;
+
+public class Ex05_10 {
+// ¿ø ´ß °³ µÅ Áã ¼Ò È£ Åä ¿ë ¹ì ¸» ¾ç (´Ù½Ã)
+   
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		int year;
+		
+		System.out.println("Ãâ»ý¿¬µµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä:");
+		year =s.nextInt();
+		
+		switch(year%12){//12Áö½Å
+		case 0:
+			System.out.printf("¿ø¼þÀÌ¶ì\n");
+			break;
+		case 1:
+			System.out.printf("´ß¶ì\n");
+			break;
+		case 2:
+			System.out.printf("°³¶ì\n");
+			break;
+		case 3:
+			System.out.printf("µÅÁö¶ì\n");
+			break;
+		case 4:
+			System.out.printf("Áã¶ì\n");
+			break;
+		case 5:
+			System.out.printf("¼Ò¶ì\n");
+			break;
+		case 6:
+			System.out.printf("È£¶ûÀÌ¶ì\n");
+			break;
+		case 7:
+			System.out.printf("Åä³¢¶ì\n");
+			break;
+		case 8:
+			System.out.printf("¿ë¶ì\n");
+			break;
+		case 9:
+			System.out.printf("¹ì¶ì\n");
+			break;
+		case 10:
+			System.out.printf("¸»¶ì\n");
+			break;
+		case 11:
+			System.out.printf("¾ç¶ì\n");			
+		
+		}
+           s.close();
+		
+		
+	}
+
+}
